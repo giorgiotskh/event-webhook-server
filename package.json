@@ -1,0 +1,19 @@
+{
+  "name": "spotly-telegram-webhook",
+  "version": "1.0.0",
+  "description": "Telegram bot webhook server for Spotly admin panel",
+  "main": "telegram-webhook-server.js",
+  "scripts": {
+    "start": "node telegram-webhook-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "firebase-admin": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
+
